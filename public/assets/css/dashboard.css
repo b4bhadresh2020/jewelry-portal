@@ -1,0 +1,331 @@
+/* Common Dashboard */
+
+.font-bold{
+    font-weight: bold;
+}
+.frame.card-header .title{
+    font-weight: 600;
+    color: #201713;
+}
+
+.frame.card-header{
+    margin-bottom: 10px !important;
+    padding: 15px 21px 4px  !important;
+}
+
+.frame.card-body {
+    min-height: 110px;
+    padding: 18px 30px 0px;
+    border-top: 0;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.dashboard-content {
+    margin-bottom: 1em;
+}
+.sidebar {
+    position: relative;
+    font-size: 1.3rem;
+}
+.sidebar .widget {
+    margin-bottom: 3rem;
+}
+.widget-dashboard .widget-title {
+    margin-top: .2rem;
+    font-size: 26px;
+    font-weight: 600;
+}
+.widget-title {
+    margin: .5rem 0 1.3rem;
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list li.active {
+    font-weight: 700;
+}
+.list li {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.list li a {
+    display: block;
+    position: relative;
+    padding: .8rem 0 .8rem 2rem;
+    border-bottom: 1px solid #ededde;
+    color: #000;
+    font-size: 15px;
+}
+.list li a:before {
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: .6rem 0 0 -1rem;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #333;
+    content: '';
+}
+
+.alert.alert-intro {
+    font-size: 1.5rem;
+}
+.alert {
+    border-radius: 0;
+}
+
+
+label {
+    margin-bottom: .25rem;
+    font-size: 15px;
+}
+
+.form-control {
+    border-radius: 2px;
+    background-clip: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,background .15s ease-in-out,opacity .15s ease-in-out;
+    color: #262626;
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    height: 36px;
+    padding: 7.5px 10px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.form-control:focus {
+    box-shadow: none;
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn:not(.btn-icon) {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8.5px 16px;
+}
+
+.btn-radius-none{
+    border-radius: 0px;
+}
+
+label input[type='radio'],
+label input[type='checkbox']{
+    vertical-align: -1px;
+}
+
+select.form-control {
+    padding-right: 27px;
+    background-position: right 10px center;
+}
+.was-validated select.form-control:invalid,
+.was-validated select.form-control:valid,
+select.form-control,
+select.form-control.is-invalid,
+select.form-control.is-valid {
+    background-repeat: no-repeat;
+    background-size: 5px 10px;
+}
+
+
+/* Dashboard */
+
+.card {
+    margin-bottom: 3rem;
+    border: 1px solid #ddd;
+    border-radius: 0;
+
+}
+.card-header {
+    margin: 0;
+    padding: 1.2rem 1.5rem;
+    border-radius: 0;
+    border-color: #ddd;
+    background-color: #f5f5f5;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.card-header .card-edit {
+    margin-top: .1rem;
+    float: right;
+    color: #08c;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.card-body {
+    min-height: 110px;
+    padding: 20px 30px;
+    border-top: 0;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+
+/* Addresses Page */
+
+
+.addresses-section .addresses-list {
+    display: -moz-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addresses-section .addresses-list__item--new {
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 1px 8px 2px rgba(0,0,0,.09);
+}
+.addresses-section .addresses-list__item {
+    flex-shrink: 0;
+    min-height: 300px;
+}
+
+.addresses-section  .addresses-list__plus {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 30px;
+    margin-bottom: 24px;
+    color: #e0e0e0;
+    border: 2px solid;
+    transition: color .2s;
+}
+ .addresses-section .addresses-list__plus:after,
+ .addresses-section .addresses-list__plus:before {
+    left: calc(50% - 16px);
+}
+.addresses-section .addresses-list__plus:after,
+.addresses-section .addresses-list__plus:before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 1.5px;
+    top: calc(50% - 2px);
+}
+.addresses-section .addresses-list__plus:after,  .addresses-list__plus:before {
+    left: calc(50% - 16px);
+}
+.addresses-section .addresses-list__plus:after {
+    transform: rotate(90deg);
+}
+.addresses-section .addresses-list__plus:after, .addresses-list__plus:before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 1.5px;
+    top: calc(50% - 2px);
+}
+
+.addresses-section .addresses-list .card {
+    background-color: #fff;
+    box-shadow: 0 1px 8px 2px rgba(0,0,0,.09);
+    border: none;
+    border-radius: 0;
+}
+
+.addresses-section .address-card {
+    position: relative;
+}
+
+.addresses-section .address-card__badge {
+    right: 12px;
+}
+
+.addresses-section .address-card__badge {
+    position: absolute;
+    top: 12px;
+}
+
+.tag-badge--theme {
+    color: #fff;
+}
+
+.tag-badge {
+    display: block;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+    z-index: 0;
+    height: 18px;
+    padding: 4px 14px 0;
+    width: 80px;
+}
+
+
+.tag-badge:before {
+    transform: skewX(-20deg);
+}
+.tag-badge--theme:before {
+    background: #e52727;
+}
+.tag-badge:before {
+    left: 3.5px;
+    right: 3.5px;
+}
+.tag-badge:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 2.5px;
+    transform-origin: center;
+}
+
+.addresses-section .address-card__body{
+    padding: 1.5rem;
+    font-size: 15px;
+    line-height: 18px;
+}
+.addresses-section .address-card__name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 1.125rem;
+}
+
+.addresses-section .btn-light {
+    color: #000000;
+    background-color: #f8f9fa;
+    border-color: #eaeaea;
+    font-weight: 600;
+    font-size: 15px !important;
+}
+
+
+/* Orders */

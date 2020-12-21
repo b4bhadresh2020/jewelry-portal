@@ -1,0 +1,105 @@
+{
+    "menu": [
+        {
+            "url": "javascript:void(0)",
+            "name": "Settings",
+            "i18n": "Settings",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "settings",
+            "icon": "settings",
+            "submenu": [
+                {
+                    "url": "admin/language",
+                    "name": "Languages",
+                    "i18n": "Languages",
+                    "slug": "admin/languages"
+                }
+            ]
+        },
+        {
+            "url": "https://codexivesolutions.com/contact-us/",
+            "name": "Support",
+            "icon": "help_outline",
+            "slug": "support",
+            "i18n": "Support",
+            "newTab": "_blank"
+        },
+        {
+            "url": "admin/account",
+            "name": "Account",
+            "i18n": "Account",
+            "class": "waves-effect waves-cyan",
+            "icon": "supervisor_account",
+            "slug": "admin/account",
+            "newTab": "_blank"
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Category",
+            "i18n": "Category",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "category",
+            "icon": "reorder",
+            "submenu": [
+                {
+                    "url": "admin/category",
+                    "name": "Category",
+                    "i18n": "Category",
+                    "slug": "admin/category"
+                },
+                {
+                    "url": "admin/sub-category",
+                    "name": "Sub Category",
+                    "i18n": "Sub Category",
+                    "slug": "admin/sub-category"
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Catalog",
+            "i18n": "Catalog",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/category",
+            "icon": "reorder",
+            "submenu": [
+                {
+                    "url": "admin/attribute",
+                    "name": "Attributes",
+                    "i18n": "Attributes",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/attribute",
+                    "newTab": ""
+                },
+                {
+                    "url": "admin/option",
+                    "name": "Options",
+                    "i18n": "Options",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/option",
+                    "newTab": ""
+                },
+                {
+                    "url": "admin/assign-attr",
+                    "name": "Assign Attributes",
+                    "i18n": "Assign Attributes",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/assign-attr",
+                    "newTab": ""
+                },
+                {
+                    "url": "admin/product",
+                    "name": "Products",
+                    "i18n": "Products",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/product",
+                    "newTab": ""
+                }
+            ]
+        }
+    ]
+}

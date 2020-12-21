@@ -1,0 +1,908 @@
+{
+    "menu": [
+        {
+            "url": "admin",
+            "name": "Dashboard",
+            "i18n": "Dashboard",
+            "class": "waves-effect waves-cyan",
+            "icon": "dashboard",
+            "slug": "admin",
+            "newTab": "_blank",
+            "all_access": true
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Group & Users",
+            "i18n": "Group & Users",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/category",
+            "icon": "people",
+            "permissions": [
+                "view-group",
+                "add-group",
+                "edit-group",
+                "delete-group",
+                "add-user",
+                "view-user"
+            ],
+            "submenu": [
+                {
+                    "url": "admin/permission",
+                    "name": "Group & Permission",
+                    "i18n": "Group & Permission",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "lock",
+                    "slug": "support",
+                    "newTab": "",
+                    "permissions": [
+                        "view-group",
+                        "add-group",
+                        "edit-group",
+                        "delete-group"
+                    ]
+                },
+                {
+                    "url": "admin/account/create",
+                    "name": "Add New",
+                    "i18n": "Add New",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/account/create",
+                    "newTab": "",
+                    "permissions": [
+                        "add-user"
+                    ]
+                },
+                {
+                    "url": "admin/account",
+                    "name": "Users",
+                    "i18n": "Users",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/account",
+                    "newTab": "",
+                    "permissions": [
+                        "view-user"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Catalog",
+            "i18n": "Catalog",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/category",
+            "icon": "image_aspect_ratio",
+            "permissions": [
+                "view-attribute",
+                "add-option",
+                "view-option",
+                "add-collection",
+                "view-collection",
+                "add-category",
+                "view-category",
+                "add-sub-category",
+                "view-sub-category",
+                "assign-attribute",
+                "add-product",
+                "view-product"
+            ],
+            "submenu": [
+                {
+                    "url": "admin/attribute",
+                    "name": "Attributes",
+                    "i18n": "Attributes",
+                    "slug": "admin/attribute",
+                    "permissions": [
+                        "view-attribute"
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Options",
+                    "i18n": "Options",
+                    "slug": "",
+                    "permissions": [
+                        "add-option",
+                        "view-option"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/option/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/option/create",
+                            "permissions": [
+                                "add-option"
+                            ]
+                        },
+                        {
+                            "url": "admin/option",
+                            "name": "Option",
+                            "i18n": "Option",
+                            "slug": "admin/option",
+                            "permissions": [
+                                "view-option"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Collections",
+                    "i18n": "Collections",
+                    "slug": "",
+                    "permissions": [
+                        "add-collection",
+                        "view-collection"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/collection/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/collection/create",
+                            "permissions": [
+                                "add-collection"
+                            ]
+                        },
+                        {
+                            "url": "admin/collection",
+                            "name": "Collection",
+                            "i18n": "Collection",
+                            "slug": "admin/collection",
+                            "permissions": [
+                                "view-collection"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Category",
+                    "i18n": "Category",
+                    "slug": "admin/category",
+                    "permissions": [
+                        "add-category",
+                        "view-category"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/category/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/category/create",
+                            "permissions": [
+                                "add-category"
+                            ]
+                        },
+                        {
+                            "url": "admin/category",
+                            "name": "Category",
+                            "i18n": "Category",
+                            "slug": "admin/category",
+                            "permissions": [
+                                "view-category"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Sub Category",
+                    "i18n": "Sub Category",
+                    "slug": "",
+                    "permissions": [
+                        "add-sub-category",
+                        "view-sub-category"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/sub-category/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/sub-category/create",
+                            "permissions": [
+                                "add-sub-category"
+                            ]
+                        },
+                        {
+                            "url": "admin/sub-category",
+                            "name": "Sub Category",
+                            "i18n": "Sub Category",
+                            "slug": "admin/sub-category",
+                            "permissions": [
+                                "view-sub-category"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "admin/assign-attr",
+                    "name": "Assign Attributes",
+                    "i18n": "Assign Attributes",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/assign-attr",
+                    "newTab": "",
+                    "permissions": [
+                        "assign-attribute"
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Product",
+                    "i18n": "Product",
+                    "slug": "admin/product",
+                    "permissions": [
+                        "add-product",
+                        "view-product"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/product/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/product/create",
+                            "permissions": [
+                                "add-product"
+                            ]
+                        },
+                        {
+                            "url": "admin/product",
+                            "name": "Product",
+                            "i18n": "Product",
+                            "slug": "admin/product",
+                            "permissions": [
+                                "view-product"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Discount",
+            "i18n": "Discount",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/discount",
+            "icon": "credit_card",
+            "permissions": [
+                "add-discount",
+                "view-discount"
+            ],
+            "submenu": [
+                {
+                    "url": "admin/discount/create",
+                    "name": "Add New",
+                    "i18n": "Add New",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/discount/create",
+                    "newTab": "",
+                    "permissions": [
+                        "add-discount"
+                    ]
+                },
+                {
+                    "url": "admin/discount",
+                    "name": "Discount",
+                    "i18n": "Discount",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/discount",
+                    "newTab": "",
+                    "permissions": [
+                        "view-discount"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "admin/customer",
+            "name": "Customers",
+            "i18n": "Customers",
+            "class": "waves-effect waves-cyan",
+            "icon": "supervisor_account",
+            "slug": "admin/customer",
+            "newTab": "",
+            "permissions": [
+                "view-customer"
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Inquiry",
+            "i18n": "Inquiry",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/inquiry",
+            "icon": "question_answer",
+            "permissions": [
+                "view-inquiry-contact",
+                "view-inquiry-product"
+            ],
+            "submenu": [
+                {
+                    "url": "admin/inquiry-contact",
+                    "name": "Contact Inquiry",
+                    "i18n": "Contact Inquiry",
+                    "slug": "admin/inquiry-contact",
+                    "permissions": [
+                        "view-inquiry-contact"
+                    ]
+                },
+                {
+                    "url": "admin/inquiry-product",
+                    "name": "Product Inquiry",
+                    "i18n": "Product Inquiry",
+                    "slug": "admin/inquiry-product",
+                    "permissions": [
+                        "view-inquiry-product"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Email Templates",
+            "i18n": "Email Templates",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/email",
+            "icon": "email",
+            "permissions": [
+                "add-email-template",
+                "view-email-templatet"
+            ],
+            "submenu": [
+                {
+                    "url": "admin/email/create",
+                    "name": "Add New",
+                    "i18n": "Add New",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/discount/create",
+                    "newTab": "",
+                    "permissions": [
+                        "add-email-template"
+                    ]
+                },
+                {
+                    "url": "admin/email",
+                    "name": "Email Templates",
+                    "i18n": "Email Templates",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/discount",
+                    "newTab": "",
+                    "permissions": [
+                        "view-email-template"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "admin/activity-log",
+            "name": "Activity Log",
+            "i18n": "Activity Log",
+            "class": "waves-effect waves-cyan",
+            "icon": "history",
+            "slug": "admin/activity-log",
+            "newTab": "",
+            "all_access": true
+        },
+        {
+            "navheader": "Website",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Homepage",
+            "i18n": "Homepage",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/banner",
+            "icon": "collections",
+            "permissions": [
+                "add-banner",
+                "view-banner",
+                "view-offer",
+                "add-service",
+                "view-service",
+                "add-testimonial",
+                "view-testimonial"
+            ],
+            "submenu": [
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Banner",
+                    "i18n": "Banner",
+                    "slug": "admin/banner",
+                    "permissions": [
+                        "add-banner",
+                        "view-banner"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/banner/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/banner/create",
+                            "permissions": [
+                                "add-banner"
+                            ]
+                        },
+                        {
+                            "url": "admin/banner",
+                            "name": "Banner",
+                            "i18n": "Banner",
+                            "slug": "admin/banner",
+                            "permissions": [
+                                "view-banner"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "admin/offer",
+                    "name": "Offer",
+                    "i18n": "Offer",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/offer",
+                    "permissions": [
+                        "view-offer"
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Services",
+                    "i18n": "Services",
+                    "slug": "admin/service",
+                    "permissions": [
+                        "add-service",
+                        "view-service"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/service/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/service/create",
+                            "permissions": [
+                                "add-service"
+                            ]
+                        },
+                        {
+                            "url": "admin/service",
+                            "name": "Services",
+                            "i18n": "Services",
+                            "slug": "admin/service",
+                            "permissions": [
+                                "view-service"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "name": "Seller",
+                    "i18n": "Seller",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "slug": "admin/seller",
+                    "icon": "chrome_reader_mode",
+                    "permissions": [
+                        "add-testimonial"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/seller/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "class": "waves-effect waves-cyan",
+                            "icon": "graphic_eq",
+                            "slug": "admin/seller/create",
+                            "newTab": "",
+                            "permissions": [
+                                "add-testimonial"
+                            ]
+                        },
+                        {
+                            "url": "admin/seller",
+                            "name": "Seller",
+                            "i18n": "Seller",
+                            "class": "waves-effect waves-cyan",
+                            "icon": "graphic_eq",
+                            "slug": "admin/seller",
+                            "newTab": "",
+                            "permissions": [
+                                "add-testimonial"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Testimonials",
+                    "i18n": "Testimonials",
+                    "slug": "admin/testimonial",
+                    "permissions": [
+                        "add-testimonial",
+                        "view-testimonial"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/testimonial/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/testimonial/create",
+                            "permissions": [
+                                "add-testimonial"
+                            ]
+                        },
+                        {
+                            "url": "admin/testimonial",
+                            "name": "Testimonials",
+                            "i18n": "Testimonials",
+                            "slug": "admin/testimonial",
+                            "permissions": [
+                                "view-testimonial"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "FAQs",
+            "i18n": "FAQs",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/faq-category",
+            "icon": "gradient",
+            "permissions": [
+                "add-faq-category",
+                "view-faq-category",
+                "add-faq-information",
+                "view-faq-information"
+            ],
+            "submenu": [
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "FAQs Category",
+                    "i18n": "FAQs Category",
+                    "slug": "admin/faq-category",
+                    "permissions": [
+                        "add-faq-category",
+                        "view-faq-category"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/faq-category/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/faq-category/create",
+                            "permissions": [
+                                "add-faq-category"
+                            ]
+                        },
+                        {
+                            "url": "admin/faq-category",
+                            "name": "FAQs Category",
+                            "i18n": "FAQs Category",
+                            "slug": "admin/faq-category",
+                            "permissions": [
+                                "view-faq-category"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "FAQs Information",
+                    "i18n": "FAQs Information",
+                    "slug": "",
+                    "permissions": [
+                        "add-faq-information",
+                        "view-faq-information"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/faq/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/faq/create",
+                            "permissions": [
+                                "add-faq-information"
+                            ]
+                        },
+                        {
+                            "url": "admin/faq",
+                            "name": "FAQs Information",
+                            "i18n": "FAQs Information",
+                            "slug": "admin/faq",
+                            "permissions": [
+                                "view-faq-information"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Blog",
+            "i18n": "Blog",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/blog",
+            "icon": "chrome_reader_mode",
+            "permissions": [
+                "add-blog",
+                "view-blog"
+            ],
+            "submenu": [
+                {
+                    "url": "admin/blog/create",
+                    "name": "Add New",
+                    "i18n": "Add New",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/blog/create",
+                    "newTab": "",
+                    "permissions": [
+                        "add-blog"
+                    ]
+                },
+                {
+                    "url": "admin/blog",
+                    "name": "Blog",
+                    "i18n": "Blog",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/blog",
+                    "newTab": "",
+                    "permissions": [
+                        "view-blog"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "User Menus",
+            "i18n": "User Menus",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/category",
+            "icon": "format_list_bulleted",
+            "permissions": [
+                "add-user-menu",
+                "view-user-menu"
+            ],
+            "submenu": [
+                {
+                    "url": "admin/user-menu/create",
+                    "name": "Add New",
+                    "i18n": "Add New",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/user-menu/create",
+                    "newTab": "",
+                    "permissions": [
+                        "add-user-menu"
+                    ]
+                },
+                {
+                    "url": "admin/user-menu",
+                    "name": "Manage User Menus",
+                    "i18n": "Manage User Menus",
+                    "class": "waves-effect waves-cyan",
+                    "icon": "graphic_eq",
+                    "slug": "admin/account",
+                    "newTab": "",
+                    "permissions": [
+                        "view-user-menu"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "admin/subscriber-list",
+            "name": "Subscriber",
+            "i18n": "Subscriber",
+            "class": "waves-effect waves-cyan",
+            "icon": "subscriptions",
+            "slug": "admin/subscriber-list",
+            "newTab": "",
+            "permissions": [
+                "view-subscriber"
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Custom Page",
+            "i18n": "Custom Page",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admin/custom-category",
+            "icon": "pages",
+            "permissions": [
+                "add-custom-category",
+                "view-custom-category",
+                "add-custom-sub-category",
+                "view-custom-sub-category"
+            ],
+            "submenu": [
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Custom Category",
+                    "i18n": "Custom Category",
+                    "slug": "",
+                    "permissions": [
+                        "add-custom-category",
+                        "view-custom-category"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/custom-category/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/custom-category/create",
+                            "permissions": [
+                                "add-custom-category"
+                            ]
+                        },
+                        {
+                            "url": "admin/custom-category",
+                            "name": "Custom Category",
+                            "i18n": "Custom Category",
+                            "slug": "admin/custom-category",
+                            "permissions": [
+                                "view-custom-category"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Custom Sub Category",
+                    "i18n": "Custom Sub Category",
+                    "slug": "",
+                    "permissions": [
+                        "add-custom-sub-category",
+                        "view-custom-sub-category"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/custom-sub-category/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/custom-sub-category/create",
+                            "permissions": [
+                                "add-custom-sub-category"
+                            ]
+                        },
+                        {
+                            "url": "admin/custom-sub-category",
+                            "name": "Custom Sub Category",
+                            "i18n": "Custom Sub Category",
+                            "slug": "admin/custom-sub-category",
+                            "permissions": [
+                                "view-custom-sub-category"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "navheader": "Other",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Settings",
+            "i18n": "Settings",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "settings",
+            "icon": "settings",
+            "permissions": [
+                "view-language",
+                "add-payment-gateway",
+                "view-payment-gateway",
+                "general-setting",
+                "social-link-setting",
+                "homepage-setting"
+            ],
+            "submenu": [
+                {
+                    "url": "admin/language",
+                    "name": "Languages",
+                    "i18n": "Languages",
+                    "slug": "admin/languages",
+                    "permissions": [
+                        "view-language"
+                    ]
+                },
+                {
+                    "url": "javascript:void(0)",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "name": "Payment Gateway",
+                    "i18n": "Payment Gateway",
+                    "slug": "admin/payment-gateway",
+                    "permissions": [
+                        "add-payment-gateway",
+                        "view-payment-gateway"
+                    ],
+                    "submenu": [
+                        {
+                            "url": "admin/payment-gateway/create",
+                            "name": "Add New",
+                            "i18n": "Add New",
+                            "slug": "admin/category/create",
+                            "permissions": [
+                                "add-payment-gateway"
+                            ]
+                        },
+                        {
+                            "url": "admin/payment-gateway",
+                            "name": "Payment Gateway",
+                            "i18n": "Payment Gateway",
+                            "slug": "admin/category",
+                            "permissions": [
+                                "view-payment-gateway"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "url": "admin/setting?open=general",
+                    "name": "General",
+                    "i18n": "General",
+                    "slug": "admin/setting?open=general",
+                    "permissions": [
+                        "general-setting"
+                    ]
+                },
+                {
+                    "url": "admin/setting?open=social-link",
+                    "name": "Social Link",
+                    "i18n": "Social Link",
+                    "slug": "admin/setting?open=social-link",
+                    "permissions": [
+                        "social-link-setting"
+                    ]
+                },
+                {
+                    "url": "admin/setting?open=home-page",
+                    "name": "Home Page",
+                    "i18n": "Home Page",
+                    "slug": "admin/setting?open=home-page",
+                    "permissions": [
+                        "homepage-setting"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "https://codexivesolutions.com/contact-us/",
+            "name": "Support",
+            "i18n": "Support",
+            "class": "waves-effect waves-cyan",
+            "icon": "help_outline",
+            "slug": "support",
+            "newTab": "_blank",
+            "all_access": true
+        }
+    ]
+}

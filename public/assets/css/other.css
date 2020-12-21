@@ -1,0 +1,302 @@
+/*********************************** savan common page ************************************/
+/* .header-menu-wrapper{
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    border-image-source: linear-gradient(26deg, rgb(248 203 1) 0%, rgb(0 0 0) 100%);
+    border-image-slice: 1;
+} */
+
+/* .header-bottom-currency ul{
+    width: 110px;
+} */
+/* .header-bottom-currency ul li{
+    text-align: left;
+} */
+
+/* .header-bottom-currency ul li img{
+    margin-right: 10px;
+    width: 20px;
+} */
+/* .header-bottom-currency-button img{
+    width: 25px;
+} */
+/* .header-bottom-currency .header-bottom-currency-button a:after{
+    border:0 !important;
+} */
+
+.clear-filter{
+    cursor: pointer;
+    color: #2874f0;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    float:right;
+}
+
+.data-not-found {
+    text-align: center;
+    padding: 30px 0 40px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.data-not-found .page-header {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.data-not-found .page-header .page-title {
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #343434;
+    line-height: 1;
+}
+
+.data-not-found .page-content p {
+    font-size: 14px;
+    color: #565656;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.custom-productpage-color .colors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-productpage-color .colors li {
+    margin: 0 3px 0 0;
+    display: inline-block;
+}
+
+.custom-productpage-color .colors label {
+    cursor: pointer;
+}
+
+.custom-productpage-color .colors input {
+    display: none;
+}
+
+.custom-productpage-color .colors input[type="radio"]:checked+.swatch {
+    box-shadow: inset 0 0 0 2px white;
+}
+
+.custom-productpage-color .swatch {
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px 0 0;
+    border: 1px solid #d4d4d4;
+}
+
+/* E:\new-xampp7.4\htdocs\backend\resources\views\customer\product\product-not-found.blade.php */
+.not-found .error_txt {
+    color: #333;
+    font-size: 150px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.not-found  .search_form form {
+    position: relative;
+}
+.not-found  .search_form form input {
+    height: 50px;
+    padding: 5px 60px 5px 20px;
+}
+.not-found  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.not-found  .search_form .icon_search {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 1px solid #ddd;
+    border-radius: 0;
+    padding: 0 0 0 15px;
+    background: transparent;
+}
+.not-found  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.not-found  .form-control,
+.not-found  .form-control:focus {
+    color: #000;
+    box-shadow: none;
+    height: 50px;
+}
+.not-found  .subtitle{
+    font-weight: 700;
+    color:#000;
+}
+.not-found .btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none;
+}
+/********************************* end savan common page *********************************/
+
+/********************************* start jalpa common page *********************************/
+.cart-btn-disabled {
+    pointer-events: none;
+    background-color: #ccc !important;
+}
+
+.cart-counter {
+    background: #eccd4f;
+    border-radius: 50%;
+    font-size: 10px !important;
+    position: absolute;
+    line-height: 18px !important;
+    width: 18px;
+    height: 18px;
+    top: 21%;
+    text-align: center;
+    color: #fff !important;
+    right: 23.5%;
+    padding: 0 !important;
+}
+
+.checkout-btn {
+    background-color: #eccd4f;
+    color: #000;
+    border: none;
+    padding: 10px 22px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+.coupon-box {
+    width: 100% !important;
+}
+
+.coupon-box input {
+    max-width: 438px;
+}
+
+.ngraving-box {
+    width: 100%;
+}
+
+.engraving-form {
+    width: 50%;
+    float: left;
+}
+
+.custom-cartpage-color .swatch {
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #d4d4d4;
+}
+
+
+@font-face {
+    font-family: 'Lucida Calligraphy';
+    src: url('fonts/LucidaUnicodeCalligraphy.ttf') format('woff'),
+        url('fonts/LucidaUnicodeCalligraphy.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('fonts/times-new-roman.woff') format('woff'),
+        url('fonts/times-new-roman.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/********************************* end jalpa common page *********************************/
+
+
+/********************************* start janvi common page *********************************/
+
+/* E:\new-xampp7.4\htdocs\backend\resources\views\customer\blog\blog.blade.php */
+.all-blog-img img{
+    height: 297px;
+}
+/* E:\new-xampp7.4\htdocs\backend\resources\views\customer\faq\index.blade.php */
+.faq-category{
+    margin:20px 0px;
+    font-weight: bold;
+}
+
+/* E:\new-xampp7.4\htdocs\backend\resources\views\customer\home.blade.php */
+/*
+body{
+    overflow-x: hidden;
+} */
+
+.slider-wrapper .carousel-caption h2 {
+max-width: 1000px;
+}
+.owl-carousel .owl-item .category_img{
+    height:277px;
+}
+
+/* all page */
+.submenu-block1-inner ul li a img{
+    width: 50px;
+    height: 50px;
+}
+.submenu-block5 img{
+    height: 410px;
+}
+.submenu-image{
+    height: 393px;
+}
+
+.review-date{
+    margin-top:-23px;
+}
+/********************************* end janvi common page *********************************/
+
+/********************************* start nitesh *********************************/
+.checkout-continue {
+    text-align: right;
+}
+.payment-continue{
+    text-align: right;
+}
+.payment-continue button {
+    background-color: #eccd4f;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 0;
+    width: auto;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000;
+}
+/********************************* end nitesh *********************************/

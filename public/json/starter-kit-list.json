@@ -1,0 +1,40 @@
+{
+    "listItems": [
+        {
+            "url": "admin",
+            "name": "Dashboard",
+            "icon": "dashboard",
+            "category": "Dashboard"
+        },
+        {
+            "url": "admin/product",
+            "name": "Product",
+            "icon": "dashboard",
+            "category": "Product"
+        },
+        {
+            "url": "admin/customer",
+            "name": "Customers",
+            "icon": "supervisor_account",
+            "category": "Customers"
+        },
+        {
+            "url": "admin/inquiry-contact",
+            "name": "Contact Inquiry",
+            "icon": "question_answer",
+            "category": "Contact Inquiry"
+        },
+        {
+            "url": "admin/inquiry-product",
+            "name": "Product Inquiry",
+            "icon": "question_answer",
+            "category": "Product Inquiry"
+        },
+        {
+            "url": "admin/activity-log",
+            "name": "Activity Log",
+            "icon": "history",
+            "i18n": "Activity Log"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+/* pagination */
+.pagination li.active{
+    color: #fff !important;
+    background-color: #0288d1;
+    padding: 5px 11px 0px 11px !important;
+}
+
+.pagination li.disabled{
+    cursor: not-allowed !important;
+    padding: 5px 10px !important;
+}
+
+/* table -> tr -> option -> dropdown */
+.table-tr-icons i,
+.table-tr-icons button,
+.table-tr-icons a{
+    color: #0c0c0c !important;
+}
+
+.table-tr-icons .dropdown-content{
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+.fixed-tabs-card{
+    margin-top: 0;
+    box-shadow: 0px 6px 6px 0 rgba(0, 0, 0, 0.14), -3px 3px 7px -2px rgba(0, 0, 0, 0.12), 0px 4px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.img-zoom-1:hover,
+.img-zoom-1-5:hover,
+.img-zoom-2:hover,
+.img-zoom-2-5:hover,
+.img-zoom-3:hover,
+.img-zoom-3-5:hover,
+.img-zoom-4:hover,
+.img-zoom-4-5:hover,
+.img-zoom-5:hover{
+    transition: .3s linear;
+}
+.img-zoom-1:hover{
+    transform: scale(1);
+}
+.img-zoom-1-5:hover{
+    transform: scale(1.5);
+}
+.img-zoom-2:hover{
+    transform: scale(2);
+}
+.img-zoom-2-5:hover{
+    transform: scale(2.5);
+}
+.img-zoom-3:hover{
+    transform: scale(3);
+}
+.img-zoom-3-5:hover{
+    transform: scale(3.5);
+}
+.img-zoom-4:hover{
+    transform: scale(4);
+}
+.img-zoom-4-5:hover{
+    transform: scale(4.5);
+}
+.img-zoom-5:hover{
+    transform: scale(5);
+}
+
+/* Pre-loader */
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	position: fixed;
+	z-index: 1000000000000;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+/* fixed navbar */
+.navbar .sideNav-lock .header-search-wrapper {
+    width: calc(100% - 380px) !important;
+}
+
+
+.collapsible-filter{
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+
+.table-tabs.nav-wrapper{
+    background: transparent !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #2c323f42 !important;
+    padding: 0px 25px !important;
+}
+
+/* .table-tabs.nav-wrapper a{
+    color: #737881 !important;
+    font-weight: 400;
+    font-size: 14px !important;
+}
+.table-tabs.nav-wrapper .breadcrumb.active{
+    color: #638a2e !important;
+    font-weight: 400;
+}
+.table-tabs.nav-wrapper .breadcrumb{
+    margin: 0;
+    padding: 0;
+}
+
+.table-tabs.nav-wrapper .breadcrumb:before{
+    content: "";
+}
+.table-tabs.nav-wrapper .breadcrumb:after{
+    content: "|";
+    color: rgb(44 50 63);
+    vertical-align: -1px;
+    vertical-align: 1px;
+    padding: 17px 0px 17px 17px;
+}
+
+.table-tabs.nav-wrapper .breadcrumb:last-child:after{
+    content: "";
+} */
+
+
+.pointer{
+    cursor: pointer !important;
+}
+.nav.nav-pills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 2px 30px !important;
+    margin: 0;
+    display: flex;
+}
+.table-tabs-pills{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0288d1;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+}
+
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.table-tabs-pills{
+    padding-top: 15px !important;
+}
+.table-tabs-pills .nav-link i{
+    margin-right: 6px;
+    font-size: 20px;
+}
+
+.table-tabs-pills .nav-link{
+    color: #016897;
+    font-weight: 700;
+
+}
+.icon-padding-set{
+    padding-left: 14px;
+    padding-right: 18px;
+}
+
+.common-livewire-header{
+    background: #eceff1b8;
+}
+
+
+table.bordered th,
+table.bordered td{
+    border:none !important;
+}
+
+.wire-loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+/* checkbox css */
+input.dt-checkboxes {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    -webkit-appearance: none !important;
+    cursor: pointer;
+}
+
+input.dt-checkboxes::before,
+input.dt-checkboxes::after {
+    content: "" !important;
+    position: absolute !important;
+    border-radius: 4px !important;
+    top: 0px !important;
+    left: 0 !important;
+    width: 18px !important;
+    height: 18px !important;
+    z-index: 0 !important;
+    border: 2px solid #2c323f !important;
+    margin-top: -3px !important;
+    transition: 0.15s !important;
+}
+input.tr.dt-checkboxes::before,
+input.tr.dt-checkboxes::after{
+    top: -6px !important;
+}
+input.label.dt-checkboxes::before,
+input.label.dt-checkboxes::after{
+    margin-top: -1px !important;
+}
+input.dt-checkboxes:checked:before,
+input.dt-checkboxes:checked::after {
+    top: -4px !important;
+    left: -5px !important;
+    width: 12px !important;
+    height: 22px !important;
+    border-top: 2px solid transparent !important;
+    border-left: 2px solid transparent !important;
+    border-right: 2px solid #0288d1 !important;
+    border-bottom: 2px solid #0288d1 !important;
+    transform: rotate(40deg) !important;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+    transform-origin: 100% 100% !important;
+}
+.dt-checkboxes-label{
+    padding-left: 30px;
+    margin: 0;
+    vertical-align: 7px;
+    color: #2c323f;
+    cursor: pointer;
+}
+
+.va-plus-2{
+    vertical-align: 2px !important;
+}
+.va-minus-2{
+    vertical-align: -2px !important;
+}
+
+.icon--3-3{
+    top: -3px !important;
+    left: -3px !important;
+}
+
+.keyboard-focused .collapsible-header:focus {
+    background-color: transparent !important;
+}
+.error{
+    color: red;
+}
+.text-right{
+    text-align: right;
+}
+.w-100{
+    width: 100%;
+}
+
+.dnf-ui-card{
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.dnf-ui-title{
+    font-weight: bolder;
+    color: #2c323f;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.round-color{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.align-item-center-display-flex{
+    display: flex;
+    align-items: center;
+}
+.default-img-block .error{
+    position: absolute;
+    top: 39px;
+    left: 0;
+}
+
+.darked{
+    background: #2c323f;
+}
+
+.tabs-vertical .tabs .tab a.active {
+    background-color: #eceff1 !important;
+    color: #2c323f !important;
+    border-radius: 4px;
+}
+.tabs-vertical .tabs .tab a.active:hover {
+    color: #2c323f !important;
+}
+
+.switch label input[type=checkbox]:checked + .lever {
+    background-color: #808588;
+}
+.switch label input[type=checkbox]:checked + .lever:after {
+    background-color: #2c323f;
+}
+
